@@ -28,7 +28,7 @@ Pod::Spec.new do |s|
 
   s.ios.deployment_target = '8.0'
 
-  s.source_files = 'ABSignatureView/Classes/**/*'
+s.source_files = 'ABSignatureView/Classes/*.{h,m}'
   
   # s.resource_bundles = {
   #   'ABSignatureView' => ['ABSignatureView/Assets/*.png']
