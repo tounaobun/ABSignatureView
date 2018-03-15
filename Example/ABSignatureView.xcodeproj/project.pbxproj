@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		34277BF7038731354FF6B99D /* Pods_ABSignatureView_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D2B92E410649FD763BB2C465 /* Pods_ABSignatureView_Example.framework */; };
-		4690710A205AC1A5007FBF27 /* ABSignatureView.m in Sources */ = {isa = PBXBuildFile; fileRef = 46907109205AC1A5007FBF27 /* ABSignatureView.m */; };
 		5A28D2B174DA7F8E7C1F8809 /* Pods_ABSignatureView_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 398B90FDC8BDA23872733473 /* Pods_ABSignatureView_Tests.framework */; };
 		6003F58E195388D20070C39A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58D195388D20070C39A /* Foundation.framework */; };
 		6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58F195388D20070C39A /* CoreGraphics.framework */; };
@@ -41,8 +40,6 @@
 		0840D32603729BFFFF336108 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		398B90FDC8BDA23872733473 /* Pods_ABSignatureView_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ABSignatureView_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		3BC7E4B45FB39F34B05A5360 /* Pods-ABSignatureView_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ABSignatureView_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-ABSignatureView_Example/Pods-ABSignatureView_Example.release.xcconfig"; sourceTree = "<group>"; };
-		46907108205AC1A5007FBF27 /* ABSignatureView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ABSignatureView.h; sourceTree = "<group>"; };
-		46907109205AC1A5007FBF27 /* ABSignatureView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ABSignatureView.m; sourceTree = "<group>"; };
 		6003F58A195388D20070C39A /* ABSignatureView_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ABSignatureView_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		6003F58F195388D20070C39A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -135,8 +132,6 @@
 		6003F593195388D20070C39A /* Example for ABSignatureView */ = {
 			isa = PBXGroup;
 			children = (
-				46907108205AC1A5007FBF27 /* ABSignatureView.h */,
-				46907109205AC1A5007FBF27 /* ABSignatureView.m */,
 				6003F59C195388D20070C39A /* ABAppDelegate.h */,
 				6003F59D195388D20070C39A /* ABAppDelegate.m */,
 				873B8AEA1B1F5CCA007FD442 /* Main.storyboard */,
@@ -411,7 +406,6 @@
 				6003F59E195388D20070C39A /* ABAppDelegate.m in Sources */,
 				6003F5A7195388D20070C39A /* ABViewController.m in Sources */,
 				6003F59A195388D20070C39A /* main.m in Sources */,
-				4690710A205AC1A5007FBF27 /* ABSignatureView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
