@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'ABSignatureView_Example' do
+  pod 'ABSignatureView', :path => '../'
+
+  target 'ABSignatureView_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
