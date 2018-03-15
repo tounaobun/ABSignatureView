@@ -7,8 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		00772CF882BBBB243563FB9074C56C06 /* ReplaceMe.m in Sources */ = {isa = PBXBuildFile; fileRef = 4FEAEBED346B135B439D6F81AFC6AE73 /* ReplaceMe.m */; };
 		12743C47E7374A7DF8D9C535C65E12C9 /* ABSignatureView-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 21BC39960670024A1AD7A84CD385AB7B /* ABSignatureView-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4690710D205AC8E8007FBF27 /* ABSignatureView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4690710B205AC8E8007FBF27 /* ABSignatureView.m */; };
+		4690710E205AC8E8007FBF27 /* ABSignatureView.h in Headers */ = {isa = PBXBuildFile; fileRef = 4690710C205AC8E8007FBF27 /* ABSignatureView.h */; };
 		5743CA888B0AA954D5F7ADEC41F3E111 /* ABSignatureView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9AEF9B928E94D3E3030264CECCACE32C /* ABSignatureView-dummy.m */; };
 		6E67158832C66C82BE5C49509F53C0EF /* Pods-ABSignatureView_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = ACE68AE92533180F1D2275DCC175689B /* Pods-ABSignatureView_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		9ED1845909F726E7B82C3A7CC23F935D /* Pods-ABSignatureView_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 23BC58430CDCFBF65E8FEF1C95714DB9 /* Pods-ABSignatureView_Example-dummy.m */; };
@@ -31,7 +32,7 @@
 
 /* Begin PBXFileReference section */
 		079259CC26CA9CDBB3B9A451A43E6E0E /* Pods-ABSignatureView_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ABSignatureView_Example.release.xcconfig"; sourceTree = "<group>"; };
-		0B28CE7F5EF8483BC0E6EDE7B220DD5F /* Pods-ABSignatureView_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-ABSignatureView_Example.modulemap"; sourceTree = "<group>"; };
+		0B28CE7F5EF8483BC0E6EDE7B220DD5F /* Pods-ABSignatureView_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-ABSignatureView_Example.modulemap"; sourceTree = "<group>"; };
 		0BABD8AFE4420D0FD64FED42E01794F7 /* ABSignatureView-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ABSignatureView-prefix.pch"; sourceTree = "<group>"; };
 		18F918A30DB8B37C7674AE8ABDE1ABA9 /* Pods-ABSignatureView_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ABSignatureView_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		1DD4A4672061F44D864F34E4F9730AC2 /* Pods-ABSignatureView_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ABSignatureView_Tests-umbrella.h"; sourceTree = "<group>"; };
@@ -41,27 +42,28 @@
 		24B2F53FCF5E18E733DA16552B96A68F /* Pods-ABSignatureView_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ABSignatureView_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		315C207A65D22BEDAA21C94A517C2093 /* Pods-ABSignatureView_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ABSignatureView_Tests-frameworks.sh"; sourceTree = "<group>"; };
 		3C483CB5A004566FDD1FEAA0EA41727B /* Pods-ABSignatureView_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ABSignatureView_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		4690710B205AC8E8007FBF27 /* ABSignatureView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ABSignatureView.m; path = ABSignatureView/Classes/ABSignatureView.m; sourceTree = "<group>"; };
+		4690710C205AC8E8007FBF27 /* ABSignatureView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ABSignatureView.h; path = ABSignatureView/Classes/ABSignatureView.h; sourceTree = "<group>"; };
 		477BDEAD971A96E11BDBA4B8FCA08868 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		4FEAEBED346B135B439D6F81AFC6AE73 /* ReplaceMe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ReplaceMe.m; path = ABSignatureView/Classes/ReplaceMe.m; sourceTree = "<group>"; };
 		51EA7756350E19D394D38BF0465D3132 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5B99C1EF7AB1D8760C8ADF3F5F561BEF /* Pods-ABSignatureView_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ABSignatureView_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		6061E9B1A707A04BB3CF960C24DBF356 /* Pods-ABSignatureView_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ABSignatureView_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		7DC9996B91C0FC805945873325DA69B3 /* Pods_ABSignatureView_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_ABSignatureView_Example.framework; path = "Pods-ABSignatureView_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		7EA9F7504E22E2A703F50B11C4AF0370 /* Pods_ABSignatureView_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_ABSignatureView_Tests.framework; path = "Pods-ABSignatureView_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7DC9996B91C0FC805945873325DA69B3 /* Pods_ABSignatureView_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ABSignatureView_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7EA9F7504E22E2A703F50B11C4AF0370 /* Pods_ABSignatureView_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ABSignatureView_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		86477827FB4803FA9E6787E0497A26B0 /* ABSignatureView.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ABSignatureView.xcconfig; sourceTree = "<group>"; };
-		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		9AEF9B928E94D3E3030264CECCACE32C /* ABSignatureView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ABSignatureView-dummy.m"; sourceTree = "<group>"; };
-		9B2D08BBD6C8673BC393A53809124B64 /* Pods-ABSignatureView_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-ABSignatureView_Tests.modulemap"; sourceTree = "<group>"; };
+		9B2D08BBD6C8673BC393A53809124B64 /* Pods-ABSignatureView_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-ABSignatureView_Tests.modulemap"; sourceTree = "<group>"; };
 		9E37CDB070514136E4DE3B5FA682485A /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		ACE68AE92533180F1D2275DCC175689B /* Pods-ABSignatureView_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ABSignatureView_Example-umbrella.h"; sourceTree = "<group>"; };
 		BCF27E940422DCAA05ACD4E9D72E6C09 /* Pods-ABSignatureView_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ABSignatureView_Tests-resources.sh"; sourceTree = "<group>"; };
 		BD32DB63762B3B51B50894E0D4863F56 /* Pods-ABSignatureView_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ABSignatureView_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		D0ECA558180D1B1BC9A0A595DB14AF7E /* ABSignatureView.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = ABSignatureView.modulemap; sourceTree = "<group>"; };
+		D0ECA558180D1B1BC9A0A595DB14AF7E /* ABSignatureView.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = ABSignatureView.modulemap; sourceTree = "<group>"; };
 		FABEE17372009FA22C743E86E530028B /* Pods-ABSignatureView_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ABSignatureView_Example-frameworks.sh"; sourceTree = "<group>"; };
 		FCFC666ECAEFE5164B52E8E2596CEC0E /* Pods-ABSignatureView_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ABSignatureView_Example-resources.sh"; sourceTree = "<group>"; };
 		FD9E7A8B81A2F65FA16FA54D8CDC3110 /* Pods-ABSignatureView_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ABSignatureView_Tests-dummy.m"; sourceTree = "<group>"; };
-		FF520155ABE3A2B92427CC35F16DF42A /* ABSignatureView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = ABSignatureView.framework; path = ABSignatureView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FF520155ABE3A2B92427CC35F16DF42A /* ABSignatureView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ABSignatureView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -142,7 +144,8 @@
 		95E26E016C50446726E86305E07D11AA /* ABSignatureView */ = {
 			isa = PBXGroup;
 			children = (
-				4FEAEBED346B135B439D6F81AFC6AE73 /* ReplaceMe.m */,
+				4690710C205AC8E8007FBF27 /* ABSignatureView.h */,
+				4690710B205AC8E8007FBF27 /* ABSignatureView.m */,
 				AB459DD6EA94BB10A094019A702F895F /* Support Files */,
 			);
 			name = ABSignatureView;
@@ -222,6 +225,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				12743C47E7374A7DF8D9C535C65E12C9 /* ABSignatureView-umbrella.h in Headers */,
+				4690710E205AC8E8007FBF27 /* ABSignatureView.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -321,8 +325,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4690710D205AC8E8007FBF27 /* ABSignatureView.m in Sources */,
 				5743CA888B0AA954D5F7ADEC41F3E111 /* ABSignatureView-dummy.m in Sources */,
-				00772CF882BBBB243563FB9074C56C06 /* ReplaceMe.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
