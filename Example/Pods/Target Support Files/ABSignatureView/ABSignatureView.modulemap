@@ -1,0 +1,6 @@
+framework module ABSignatureView {
+  umbrella header "ABSignatureView-umbrella.h"
+
+  export *
+  module * { export * }
+}
